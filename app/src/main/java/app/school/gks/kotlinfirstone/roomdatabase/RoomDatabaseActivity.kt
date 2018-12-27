@@ -68,6 +68,10 @@ class RoomDatabaseActivity : AppCompatActivity()
         }catch (e:Exception)
         {
             Toast.makeText(this,""+e,Toast.LENGTH_LONG).show()
+
+
+
+            Toast.makeText(this,"hello",Toast.LENGTH_LONG).show()
         }
     }
 }
